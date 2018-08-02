@@ -118,7 +118,7 @@ body {
 h1, h2, h3 {
   margin: 0; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 600; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
@@ -174,8 +174,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'col1 col2 col3';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-areas: 'bioimage  bio' 'col1 col2';
+  grid-template-columns: repeat(2, 1fr); }
 
 .bio-img {
   grid-area: bioimage;
@@ -195,9 +195,6 @@ main {
 
 .col2 {
   grid-area: col2; }
-
-.col3 {
-  grid-area: col3; }
 
 .col {
   background: #515151;
@@ -262,7 +259,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'col1' 'col2' 'col3';
+    grid-template-areas: 'bioimage' 'bio' 'col1' 'col2' 'col3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
