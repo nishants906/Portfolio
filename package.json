@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "Shivankit Raj",
+  "author": "Nishant Sardana",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.9.2" 
